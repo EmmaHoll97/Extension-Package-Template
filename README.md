@@ -19,14 +19,14 @@ The module exports four main products designed for easy consumption:
 - `store`: Redux store slices for managing state related to the module.
 
 ## Folder Structure
-
 The repository is structured as follows:
+```markdown
 src/
 |-- background/ # Background script logic
 |-- content/ # Content script logic
 |-- messaging/ # Messaging and communication
 |-- store/ # Redux store slices and state management
-|-- manifest.json # Chrome extension manifest file (if applicable)
+```
 
 ## Integration Examples
 
@@ -78,7 +78,7 @@ chrome.runtime.onMessage.addListener(onForegroundMessage);
 
 ## Content Script Integration (functions)
 ### For integrating content functions into your content scripts:
-#### Import the functions provided and use them as you would any other package.
+Import the functions provided and use them as you would any other package.
 
 ```javascript
 import { func } from 'featurex-module';
@@ -90,7 +90,7 @@ export const initialize = async () => {
 
 ## Store Integration
 ### Integrating a Redux store slice from the module:
-#### Redux actions can be imported from the package and dispatched as needed 
+Redux actions can be imported from the package and dispatched as needed 
 
 ```javascript
 import { configureStore } from '@reduxjs/toolkit';
@@ -104,4 +104,4 @@ const store = configureStore({
 });
 ```
 ## Contributing
-### Contributions to improve this template are welcome! Please read our Contributing Guide for more information on how to contribute effectively.
+Your contributions are invaluable to improving the quality and usability of this template. To complement your efforts, I've prepared an [Extension Template](https://github.com/EmmaHoll97/React-Chrome-Extension-Template) repository that you might find useful.
