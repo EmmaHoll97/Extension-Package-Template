@@ -1,0 +1,24 @@
+{
+  "name": "extension-package-template",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "template for packaged features within an extension",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EmmaHoll97/Extension-Package-Template.git"
+  },
+  "author": "Emma Holland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmaHoll97/Extension-Package-Template/issues"
+  },
+  "homepage": "https://github.com/EmmaHoll97/Extension-Package-Template#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.1",
+    "react-redux": "^9.1.0"
+  }
+}
