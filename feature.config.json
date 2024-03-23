@@ -1,0 +1,9 @@
+{
+    "featureName": "featureX",
+    "version": "1.0.0",
+    "description": "featureX is a new feature that ...",
+    "createdDate": "2024-03-23", 
+    "lastUpdatedDate": "2024-03-24",
+    "userGroups": ["betaTesters", "premiumUsers"],
+    "prerequisites": ["OtherFeatureEnabled", "ExternalDependencyResolved"]
+}
